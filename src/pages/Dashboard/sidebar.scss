@@ -1,0 +1,130 @@
+.sidebar__container {
+    width: 20vw;
+    background-color: #fff;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.04);
+
+    & > *:hover {
+        cursor: pointer;
+    }
+
+    &-main {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top: 16.5%;
+        gap: 10px;
+
+        &-icon {
+            position: relative;
+            top: -2px;
+        }
+
+        &-2 {
+            position: relative;
+            top: 35px;
+            left: -45px;
+            margin-top: 0;
+        }
+
+        &-item {
+
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            gap: 10px;
+            margin-top: 10px;
+            position: relative;
+            
+
+            &-1 {
+                margin-top: 50px;
+                background: lightblue;
+                left: -56px;
+            }
+
+            &-2 {
+                left: -39px;
+            }
+
+            &-3 {
+                left: -58px;
+            }
+
+            &-4 {
+                left: -21px;
+            }
+
+            &-5 {
+                left: -51px;
+            }
+
+            &-6 {
+                left: -24px;
+            }
+
+            &-7 {
+                left: -45px;
+            }
+
+            &-8 {
+                left: -52px;
+            }
+
+            &-9 {
+                left: -33px;
+            }
+
+            &-10 {
+                left: -25px;
+            }
+
+            &-11 {
+                left: -20px;
+            }
+
+            &-12 {
+                left: -15px;
+            }
+
+            &-13 {
+                left: -33px;
+            }
+
+            &-14 {
+                left: -46px;
+            }
+
+            &-15 {
+                left: -18px;
+            }
+
+            &-16 {
+                left: -33px;
+            }
+
+            &-17 {
+                left: -43px;
+            }
+
+            &-18 {
+                left: -34px;
+            }
+
+            &-19 {
+                left: -18px;
+            }
+
+            &-20 {
+                left: -38px;
+            }
+        }
+    }
+
+    &-h5 {
+        font-weight: 500;
+        position: relative;
+        top: 40px;
+        left: 33px;
+        font-size: 10px;
+    }
+}

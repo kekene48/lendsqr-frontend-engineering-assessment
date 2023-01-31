@@ -1,0 +1,116 @@
+.top__container {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    // border-bottom: 1px solid black;
+
+    .logo {
+    
+        &__image {
+    
+            &-1 {
+                width: 20.63px;    
+                height: 20.84px;   
+                margin-left: -100px;
+                margin-right: 10px;
+                position: relative;
+                top: -6px;
+            }
+    
+            &-2 {    
+                width: 115.37px;    
+                 height: 30px;   
+            }    
+        }
+    }
+
+    &-anchor {
+        position: relative;
+        left: 28%;
+        text-decoration: none;
+        color: black;
+
+        &:hover {
+            transform: scale(1.03);
+        }
+    }
+
+    &-icon {
+        &:hover {
+            animation: bellToll 100ms infinite alternate;
+        }
+
+        &-box {
+            position: relative;
+            left: 25%;
+        
+            &:hover {
+                transform: scale(1.03);
+            }
+        }
+    }
+
+
+    &-image {
+      width: 40px;
+      height: 40px;
+      border-radius: 50px;
+      position: relative;
+      left: 700%;
+    }
+
+    &-h5 {
+        position: relative;
+        left: 11%;
+    }
+    
+    &-icon-box-2 {
+        position: relative;
+        left: 4%;
+    }
+
+    .search {
+        margin-top: 1.4rem;
+
+
+        &__input {
+            width: 300px;
+            height: 32px;
+            border-radius: 5px;
+            border: 2px solid #213F7D;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+
+        &__icon-box {
+            width: 60px;
+            height: 32px;
+            position: relative;
+            top: -32.9px;
+            left: 80%;
+            background: #39cdcc;
+            border-radius: 5px;
+
+            &:hover {
+                cursor: pointer;
+                background: rgb(57, 225, 224);
+            }
+        }
+
+        &__icon {
+            position: relative;
+            left: 21px;
+            top: 8px;
+        }
+    }
+}
+
+
+@keyframes bellToll {
+    from {
+        transform: rotate(30deg);
+    } to {
+        transform: rotate(-30deg);
+    }
+}
